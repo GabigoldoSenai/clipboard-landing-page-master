@@ -1,0 +1,99 @@
+@import url(./home.css);
+@import url(./info.css);
+@import url(./access.css);
+@import url(./tools.css);
+@import url(./companies.css);
+@import url(./clipboard.css);
+@import url(./footer.css);
+
+:root{
+   /*  ### Primary */
+
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Strong-Cyan-Shadow: hsl(171, 55%, 36%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Light-Blue-Shadow: hsl(233, 44%, 55%);
+    
+    /* ### Neutral */
+    
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --Light-Gray: hsl(200, 32%, 93%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    line-height: 35px;
+}
+
+body{
+    background-color: var(--White);
+}
+
+a:hover{
+    color:var(--Strong-Cyan);
+}
+
+.social-media:hover{
+    background-color:var(--Strong-Cyan);
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    color: var(--Grayish-Blue);
+    font-size: 18px;
+}
+
+.download{
+    display: flex;
+    gap: 15px;
+}
+
+button{
+    padding: 5px 30px;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px;
+    color: var(--White);
+    cursor: pointer;
+}
+
+button:active{
+    opacity: .8;
+}
+
+.btn-green{
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0 3px 2px var(--Strong-Cyan-Shadow);
+}
+
+.btn-blue{
+    background-color: var(--Light-Blue);
+    box-shadow: 0 3px 2px var(--Light-Blue-Shadow);
+}
+
+.text-content{
+    min-width: 360px;
+    width: 50%;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}

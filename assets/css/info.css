@@ -1,0 +1,35 @@
+.info1{
+    min-height: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info2{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.device-img1{
+    position:relative;
+    left: -50px;
+    width: 53%;
+}
+
+.device-img1>img{
+    width: 100%;
+}
+
+.mini-text-content{
+    width: 30%;
+    margin-right: 15%;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+}
