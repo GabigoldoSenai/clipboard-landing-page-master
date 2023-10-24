@@ -30,7 +30,11 @@
     font-family: 'Bai Jamjuree', sans-serif;
     text-decoration: none;
     color: var(--Dark-Grayish-Blue);
-    line-height: 35px;
+    
+}
+
+img{
+    width: 100%;
 }
 
 body{
@@ -54,12 +58,13 @@ h2{
 }
 
 h3{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p{
     color: var(--Grayish-Blue);
     font-size: 18px;
+    line-height: 35px;
 }
 
 .download{

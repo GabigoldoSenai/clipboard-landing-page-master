@@ -1,3 +1,13 @@
 .companies{
-display:inline-block;
+display:flex;
+justify-content: space-between;
+width:80%;
+
+}
+
+.companies>.logo{
+    max-height: 50px;
+    max-width: 200px;
+    display: grid;
+    align-items: center;
 }
